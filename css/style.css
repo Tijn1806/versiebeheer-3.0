@@ -1,1 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.login {
+    background-color: orange;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+.search input {
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.intro {
+    background-color: #007BFF;
+    color: white;
+    padding: 60px 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.goals {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.tips {
+    margin-top: 20px;
+}
+
+.tips h3 {
+    margin: 10px 0;
+}
+
+.tips ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
