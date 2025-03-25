@@ -565,7 +565,7 @@ footer {
     }
     
     .footer-content {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
     
     .hero h1 {
